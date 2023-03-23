@@ -1,0 +1,391 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    line-height: 130px;
+    padding-right: 30px;
+    background-color: gold;
+    
+
+}
+
+
+nav{
+    text-align: justify;
+    display: block;
+    
+   
+    
+}
+
+nav a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    font-size: larger;
+    
+}
+a:hover{
+    color: brown;
+}
+
+
+#SUFood{
+
+    padding-right: 45%;
+    color: black;
+    font-size: 30px;
+   
+}
+/*forsidens main*/
+.divsiden{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gold;
+}
+
+
+#titel{
+    
+    color:black;
+    height: 600px;
+    width: 50%;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-size: cover;
+    text-align: left;
+    padding-left: 70px;
+    
+}
+
+#billeder{
+    color:white;
+    height: 600px;
+    width: 50%;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+#pladsholderet{
+    height: 175px;
+    width: 300px;
+    border-radius: 25px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    background-image: url(images/tortillapizza.jpg);
+    background-size:cover ;
+}
+#pladsholderto{
+    height: 175px;
+    width: 300px;
+    border-radius: 25px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 30px;
+    background-image: url(images/suppe.jpg);
+    background-size: cover;
+}
+#pladsholdertre{
+    height: 175px;
+    width: 300px;
+    border-radius: 25px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 30px;
+    background-image: url(images/vegan1.jpg);
+    background-size: cover;
+}
+
+.ikfed{
+   font-weight: 1000;
+}
+
+#logo{
+    width: 195px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#textundertitel{
+    display: flex;
+}
+
+h1{
+    line-height: 60px;
+    font-size: 55px;
+}
+P{
+    line-height: 25px;
+    font-size: 20px;
+}
+/*Knapper på forsiden*/
+#opskrifter{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#kontaktos{ 
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    padding-top: 5px;
+    border-style: solid;
+    border-width: 1px ;
+}
+
+.knapper{
+    display:flex;
+    margin: 25px;
+    gap: 60px;
+    padding-left: 50px;
+}
+/*Dette er min footers css*/
+.container{
+    max-width: 1170px;
+    margin:auto;
+    
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+    background-color: #24262b;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+    
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: red;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    background-color: #24262b;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    background-color: #24262b;
+  }
+  .footer-col ul li a:hover{
+    color: brown;
+    padding-left: 8px;
+    
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #24262b;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: blue;
+    transition: all 0.5s ease;
+    
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #24262b;
+  }
+ 
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  .fa-facebook {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+  /*Footers csser slutter*/
+  /*Opskriftside katogerier*/
+  .kort{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: beige;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.kort a{
+    color: #24262b; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.kort img:hover {
+    transform: scale(1.1);
+  }
+
+.kort > section{
+    width: 425px;
+    height: 470px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+/* aftensmad menu*/
+.aftensmad{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+#overskriftbillede{
+  color:white;
+  height: 600px;
+  width: 50%;
+  margin-top: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+#aftensmadsbillede{
+  border-radius: 50%;
+}
+
+.aftensmadoverskrift{
+  font-weight: 1000;
+  border-bottom: 2px solid brown;
+}
+.aftensmad p{
+  font-style: italic;
+  font-size: 15px;
+  color: grey;
+}
+
+/* Artikeler */
+.tortillapizza{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+  border: 100px solid white;
+}
+.tortillapizza p{
+  font-style: italic;
+  font-size: 15px;
+  color: #24262b;
+}
+.tortillapizza a{
+  text-decoration: none;
+  color: #121212;
+  position: absolute;
+  left: 110px;
+  top: 250px;
+  font-size: 35px;
+}
+.tortillapizza a:hover{
+  background-color: #121212;
+  color: gold;
+  border: #121212;
+  border-radius: 35%;
+}
+
+.ingredienser{
+text-align: center;
+margin-left: 400px;
+border: 5px solid brown;
+width: 500px;
+height: 700px;
+}
+
+.ingredienser h3{
+  font-size: small;
+  font-family:sans-serif;
+  color: #24262b;
+}
+.ingredienser h2{
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+.artikeltext{
+  background-color: beige;
+  text-align: center;
+  margin-left: 400px;
+  width: 500px;
+  height: 700px;
+}
+
+#artikelbillede{
+  height: 400px;
+  width: 700px;
+  margin-right: 270px;
+  position: absolute;
+  right: 120px;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+
